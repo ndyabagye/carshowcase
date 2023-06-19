@@ -6,7 +6,7 @@ import {CustomFilterProps} from "@/types";
 import Image from "next/image";
 
 
-export default function CustomFilter<T>({title, options, setFilter}: CustomFilterProps<T>) {
+export default function CustomFilter<T>({options, setFilter}: CustomFilterProps<T>) {
     const [menu, setMenu] = useState(options[0]);
 
     return (
